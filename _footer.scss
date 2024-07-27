@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgba($color: $dark-moderate-cyan, $alpha: 0.5);
+    padding: 100px 0;
+    &-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &-logo {
+        color: $dark-moderate-cyan;
+        font-weight: 900;
+        font-size: 35px;
+    }
+    .menu {
+        display: flex;
+        gap: 0 50px;
+        margin-top: 30px;
+        color: $dark-moderate-cyan;
+        font-weight: 500;
+        span {
+            &:hover {
+                color: white;
+            }
+        }
+
+    }
+    &-companys {
+        display: flex;
+        margin-top: 50px;
+        gap: 0 40px;
+    }
+
+}
